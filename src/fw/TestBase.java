@@ -32,7 +32,6 @@ public class TestBase {
         props.load(new FileReader(new File(configFile)));
         app = ApplicationManager.getInstance(props);
         app.setProperties(props);
-
     }
 
     @AfterTest
